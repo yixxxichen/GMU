@@ -31,4 +31,31 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
+    <Button
+        android:id="@+id/undergradbutton"
+        android:layout_width="204dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="32dp"
+        android:background="#68179b"
+        android:text="Undergrduate mentee"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/grduatebutton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.338" />
+
+    <Button
+        android:id="@+id/grduatebutton"
+        android:layout_width="204dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="100dp"
+        android:background="#68179b"
+        android:text="Graduate mentor"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
 </android.support.constraint.ConstraintLayout>
